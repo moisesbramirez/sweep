@@ -38,5 +38,14 @@
                      &to 0  &kp ENTER    &kp SPACE  &to 0
             >;
         };
+
+        layer_1 {
+            bindings = <
+&kp EXCLAMATION  &kp AT_SIGN       &kp HASH         &kp DOLLAR             &kp PERCENT          &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp UNDERSCORE  &kp SEMICOLON
+&kp GRAVE        &kp TILDE         &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET     &kp COLON  &kp LGUI       &kp LCTRL     &kp LEFT_ALT    &kp LSHIFT
+&kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp PIPE   &kp MINUS      &kp EQUAL     &kp PLUS        &kp NON_US_BACKSLASH
+                                                    &to 0                  &trans               &trans     &trans
+            >;
+        };
     };
 };
